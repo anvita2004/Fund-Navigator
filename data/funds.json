@@ -1,0 +1,34 @@
+[
+  {
+    "fund_name": "HDFC Balanced Advantage Fund",
+    "category": "Hybrid",
+    "risk_level": "Moderate",
+    "expense_ratio": 1.85,
+    "three_year_return": 14.2,
+    "description": "A hybrid fund that dynamically allocates between equity and debt based on market valuations, aiming for balanced growth with lower volatility than pure equity funds."
+  },
+  {
+    "fund_name": "ICICI Prudential Bluechip Fund",
+    "category": "Large Cap Equity",
+    "risk_level": "High",
+    "expense_ratio": 1.55,
+    "three_year_return": 18.6,
+    "description": "Invests primarily in large, well-established companies with strong market capitalization, targeting long-term capital appreciation."
+  },
+  {
+    "fund_name": "Axis Long Term Equity Fund",
+    "category": "ELSS Tax Saver",
+    "risk_level": "High",
+    "expense_ratio": 1.68,
+    "three_year_return": 16.9,
+    "description": "An equity-linked savings scheme offering tax deductions under Section 80C, with a 3-year lock-in period, investing across market capitalizations."
+  },
+  {
+    "fund_name": "SBI Magnum Low Duration Fund",
+    "category": "Debt",
+    "risk_level": "Low",
+    "expense_ratio": 0.95,
+    "three_year_return": 6.4,
+    "description": "A low-duration debt fund investing in short-term money market instruments, suited for conservative investors seeking stability over growth."
+  }
+]

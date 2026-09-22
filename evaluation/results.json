@@ -1,0 +1,35 @@
+{
+  "accuracy": 0.8,
+  "details": [
+    {
+      "question": "What is the expense ratio of ICICI Prudential Bluechip Fund?",
+      "expected": "lookup",
+      "predicted": "lookup",
+      "correct": true
+    },
+    {
+      "question": "Compare HDFC Balanced Advantage Fund and SBI Magnum Low Duration Fund",
+      "expected": "comparison",
+      "predicted": "comparison",
+      "correct": true
+    },
+    {
+      "question": "If I invest 100000 rupees in Axis Long Term Equity Fund, what is the annual expense?",
+      "expected": "calculation",
+      "predicted": "lookup",
+      "correct": false
+    },
+    {
+      "question": "What is the risk level of SBI Magnum Low Duration Fund?",
+      "expected": "lookup",
+      "predicted": "lookup",
+      "correct": true
+    },
+    {
+      "question": "Compare the 3-year returns of all high risk funds",
+      "expected": "comparison",
+      "predicted": "comparison",
+      "correct": true
+    }
+  ]
+}
