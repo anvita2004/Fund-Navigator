@@ -13,9 +13,9 @@ Say you ask: *"Compare HDFC Balanced Advantage Fund and Axis Long Term Equity Fu
 3. **Generation, but constrained** — the LLM writes the answer, but it's not free to return arbitrary text. Every response is validated against a [Pydantic](https://docs.pydantic.dev/) schema before it's accepted. If the model returns something malformed, the system catches it instead of quietly passing garbage downstream.
 4. **Evaluation** — I didn't want to just claim this works; I wanted a number. There's a small labeled test set that runs through the full pipeline and reports how often the routing actually gets the intent right.
 
-## A deliberate constraint: no paid API
+## Note on model choice
 
-Everything runs locally through [Ollama](https://ollama.com) with Llama 3.2, instead of calling a hosted model like GPT-4 or Claude. I did this on purpose, not just for cost reasons. It meant I had to actually engineer around a weaker model's mistakes — for instance, the intent classifier occasionally mislabels calculation questions as lookups, and my evaluation script is what caught that. A bigger hosted model probably would have papered over that problem. Working around a smaller model's limits taught me more about prompt design and failure handling than a flawless model would have.
+Runs entirely on Llama 3.2 via Ollama rather than a paid API — no data leaves the machine, no billing dependency. Trade-offs of a smaller local model (like occasional intent misclassification) are what the evaluation suite is designed to catch.
 
 ## Stack
 
